@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 @app.route('/hello', methods=['POST'])
 def hello_world():
-    return jsonify(message="Hullo .........Hillo, World!")
     return jsonify(message="miu mau")
 
 if __name__ == '__main__':
